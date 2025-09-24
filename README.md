@@ -22,7 +22,7 @@ npm run lint
 
 ### Launch application
 ```
-cd vue-project/; npm run dev
+cd app_portfolio/; npm run dev
 ```
 
 ### Customize configuration
