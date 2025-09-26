@@ -7,6 +7,9 @@ import App from './App.vue'
 // Import the router instance from the router configuration file.
 import router from './router';
 
+// Import global CSS styles for all potfolio components.
+import './style/global.css';
+
 // An application instance won't render anything until its .mount() method is called. 
 // It expects a "container" argument, which can either be an actual DOM element or a selector string:
 const app = createApp(App);

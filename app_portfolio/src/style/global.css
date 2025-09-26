@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #003566;
+  text-align: justify;
+}
+/* -------------------------------------------------- */
+div, section {                                        /* Style des éléments de structure */
+  margin: 20px;
+  padding: 20px;
+  background-color: #001f3f;
+  border: #ffc300 2px solid;
+}
+/* -------------------------------------------------- */
+h1, h2, h3 {                                                  /* Titres et sous-titres de la page */
+    color: #ffc300;
+}
+
+.page_title {
+    color: #ffc300;
+}
+.page_subtitle {
+    color: #ffffff;
+}
+p, ul, li {                                           /* Style des éléments de liste et des paragraphes */
+  color:#ffffff;
+}
+/* -------------------------------------------------- */
+.container {
+    display: flex;                                    /* Active le mode flexbox */
+    justify-content: space-between;                   /* Espace les éléments à gauche et à droite */
+    align-items: center;                              /* Aligne verticalement au centre (optionnel) */
+}
+.left-section {
+    flex: 1;                                          /* Prend 50% de l'espace disponible */
+    text-align: left;                                 /* Alignement du texte à gauche */
+}
+.right-section {
+    flex: 1;                                          /* Prend 50% de l'espace disponible */
+    text-align: right;                                /* Alignement du contenu à droite */
+}
+.right-section img {
+    max-width: 100%;                                  /* Assure que l'image ne dépasse pas de sa div */
+    height: auto;                                     /* Garde les proportions de l'image */
+}
+/* -------------------------------------------------- */
+a {
+  color: #ffc300;                                   /* Couleur des liens */
+  text-decoration: none;                              /* Supprime le soulignement des liens */
+}
+a:hover {
+  color: #ffd60a;                                   /* Couleur des liens au survol */
+  text-decoration: underline;                         /* Ajoute un soulignement au survol */
+}
+a:visited {
+    color: inherit;                                   /* Enlève l'effet "déjà cliqué" */
+}

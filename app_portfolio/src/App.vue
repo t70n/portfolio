@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <h1><router-link to="/">Mon Portfolio - Pierre CHAVEROUX</router-link></h1>
-  <nav>
+  <h1 class=navbar_title><router-link to="/">Mon Portfolio - Pierre CHAVEROUX</router-link></h1>
+  <nav class="navbar">
         <router-link to="/engineering_course">Parcours ingénieur</router-link>
         <router-link to="/international_mobility">Mobilité internationale</router-link>
         <router-link to="/sustainability_civic_engagement">Engagements durabilité et civique</router-link>
@@ -12,4 +12,4 @@
     <router-view></router-view>
 </template>
 
-<style scoped></style>
+<style src="./style/navbar.css" scoped></style>
