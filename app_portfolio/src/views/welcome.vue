@@ -27,7 +27,6 @@
             <img src="/img/ensseih_front_porch.jpg" alt="ENSSEIHT Front Porch" />
         </div>
     </div>
-    
     <div>
         <p>For a more up-to-date connection, let's connect on LinkedIn : <a href="https://www.linkedin.com/in/pierre-chaveroux/" target="_blank" rel="noopener"> LinkedIn Profile</a> </p>
     </div>
