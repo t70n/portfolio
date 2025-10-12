@@ -14,7 +14,6 @@ div, section {                                        /* Style des éléments de
 h1, h2, h3 {                                                  /* Titres et sous-titres de la page */
     color: #ffc300;
 }
-
 .page_title {
     color: #ffc300;
 }
@@ -25,6 +24,25 @@ p, ul, li {                                           /* Style des éléments de
   color:#ffffff;
 }
 /* -------------------------------------------------- */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+/* -------------------------------------------------- */
 .container {
     display: flex;                                    /* Active le mode flexbox */
     justify-content: space-between;                   /* Espace les éléments à gauche et à droite */
@@ -33,6 +51,10 @@ p, ul, li {                                           /* Style des éléments de
 .left-section {
     flex: 1;                                          /* Prend 50% de l'espace disponible */
     text-align: left;                                 /* Alignement du texte à gauche */
+}
+.middle-section {
+    flex: 1;                                          /* Prend 1/3 de l'espace disponible */
+    text-align: center;                               /* Alignement du texte au centre */
 }
 .right-section {
     flex: 1;                                          /* Prend 50% de l'espace disponible */

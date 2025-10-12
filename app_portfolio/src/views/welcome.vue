@@ -21,6 +21,9 @@
                     <li><a href="/pdf/cv_pierre_chaveroux_fr.pdf" download>Curriculum vitae - French Edition</a></li>
                     <li><a href="/pdf/cv_pierre_chaveroux_en.pdf" download>Curriculum vitae - English Edition</a></li>
                 </ul>
+                <div>
+                    <button type="button" @click="downloadCV('cv_pierre_chaveroux_en.pdf')">Download CV</button>
+                </div>
             </section>
         </div>
         <div class="right-section">
@@ -33,7 +36,14 @@
 </template>
 
 <script>
+
+import { downloadCV } from '@/utils'; // Importez la fonction depuis le module
+
 export default {
-    name: 'Welcome'
+    name: 'Welcome',
+    methods: {
+        downloadCV // Utilisez la fonction importée
+    }
 };
+
 </script>

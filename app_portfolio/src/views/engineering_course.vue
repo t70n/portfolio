@@ -13,7 +13,7 @@
                 <p>The goal of this project is to apply my knowledge in networking and telecommunications to everyday use and to take control of the digital data that concerns me.</p>
             </section>
             <section class="right-section">
-                <img src="/img/homebox.png" alt="HomeBox" />
+                <img src="/img/homebox.png" alt="HomeBox"/>
             </section>
         </div>
 
