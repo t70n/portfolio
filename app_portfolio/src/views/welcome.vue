@@ -3,11 +3,11 @@
     <div class="container">
         <div class="left-section">
             <section>
-                <h1 class="page_title">WELCOME TO MY E-PORTFOLIO</h1>
-                <h2 class="page_subtitle"> Pierre CHAVEROUX - 23 years old - Apprentice IoT Engineer</h2>
+                <h1 class="page_title centered">WELCOME TO MY E-PORTFOLIO</h1>
+                <h2 class="page_subtitle centered">Pierre CHAVEROUX - 23 years old - Apprentice IoT Engineer</h2>
             </section>
             <section>
-                <p> Here, you'll find highlights of : </p>
+                <p>Here, you'll find highlights of:</p>
                 <ul>
                     <li>My engineering Course projects,</li>
                     <li>My experiences in International Mobility,</li>
@@ -16,33 +16,30 @@
                     <li>My professional growth in Career Development</li>
                 </ul>
             </section>
+            <section class="button-section">
+                <button type="button" @click="downloadCV('cv_pierre_chaveroux_fr.pdf')">Download CV (FR)</button>
+                <button type="button" @click="downloadCV('cv_pierre_chaveroux_en.pdf')">Download CV (EN)</button>
+            </section>
             <section>
-                <ul>
-                    <li><a href="/pdf/cv_pierre_chaveroux_fr.pdf" download>Curriculum vitae - French Edition</a></li>
-                    <li><a href="/pdf/cv_pierre_chaveroux_en.pdf" download>Curriculum vitae - English Edition</a></li>
-                </ul>
-                <div>
-                    <button type="button" @click="downloadCV('cv_pierre_chaveroux_en.pdf')">Download CV</button>
-                </div>
+                <p>For a more up-to-date connection, let's connect on LinkedIn: <a href="https://www.linkedin.com/in/pierre-chaveroux/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
             </section>
         </div>
         <div class="right-section">
-            <img src="/img/ensseih_front_porch.jpg" alt="ENSSEIHT Front Porch" />
+            <section>
+                <img class="custom-image" src="/img/ensseih_front_porch.jpg" alt="ENSSEIHT Front Porch" />
+            </section>
         </div>
-    </div>
-    <div>
-        <p>For a more up-to-date connection, let's connect on LinkedIn : <a href="https://www.linkedin.com/in/pierre-chaveroux/" target="_blank" rel="noopener"> LinkedIn Profile</a> </p>
     </div>
 </template>
 
 <script>
 
-import { downloadCV } from '@/utils'; // Importez la fonction depuis le module
+import { downloadCV } from '@/utils'; 
 
 export default {
     name: 'Welcome',
     methods: {
-        downloadCV // Utilisez la fonction importée
+        downloadCV 
     }
 };
 

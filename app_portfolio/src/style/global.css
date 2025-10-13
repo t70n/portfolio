@@ -1,68 +1,81 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #003566;
+  background-color: #ffffff;
   text-align: justify;
 }
 /* -------------------------------------------------- */
-div, section {                                        /* Style des éléments de structure */
-  margin: 20px;
-  padding: 20px;
-  background-color: #001f3f;
-  border: #ffc300 2px solid;
+section {                                        
+  margin: 1%;                                         /* Marge autour des sections */           
+  padding: 1%;                                        /* Espacement interne */
+  background-color: #ffffff;                        /* Couleur de fond blanche */          
+  border: #ffc300 2px solid;                        /* Bordure jaune */
+  box-sizing: border-box;                             /* Ajout pour éviter le débordement */
+}
+div {
+  box-sizing: border-box;                             /* Ajout pour éviter le débordement */
+  overflow: hidden;                                   /* Ajout pour éviter le débordement */
+  /* background-color: #f10a0a; */                    /* Couleur de fond pour visualiser les divs */  
 }
 /* -------------------------------------------------- */
-h1, h2, h3 {                                                  /* Titres et sous-titres de la page */
-    color: #ffc300;
+h1, h2, h3 {                                             
+  color: #ffc300;                                 /* Couleur du texte */
+}
+.centered {
+  text-align: center;                               /* Centrer le texte */
+}
+.padded1 {
+  padding-left: 1%;
+}
+.padded2 {
+  padding-left: 2%;
 }
 .page_title {
-    color: #ffc300;
+  color: #ffc300;                                 /* Couleur du texte */       
 }
 .page_subtitle {
-    color: #ffffff;
+  color: #000000;                                 /* Couleur du texte */                       
 }
-p, ul, li {                                           /* Style des éléments de liste et des paragraphes */
-  color:#ffffff;
+p, ul, li {                                           
+  color:#000000;                                    /* Couleur du texte */  
 }
 /* -------------------------------------------------- */
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  border: 1px solid transparent;                      /* Bordure initiale transparente */
+  padding: 0.6em 1.2em;                               /* Espacement interne */
+  font-size: 1em;                                     /* Taille de la police */
+  font-weight: 500;                                   /* Épaisseur de la police */
+  font-family: inherit;                               /* Hérite de la police du parent */
+  background-color: #ffc300;                        /* Couleur de fond */
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #000000;                            /* Couleur de la bordure au survol */
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.button-section {
+  display: flex;                                      /* Active le mode flexbox */
+  justify-content: center;                            /* Centre les boutons horizontalement */
+  gap: 25%;                                           /* Espace les boutons de 25% */
 }
 /* -------------------------------------------------- */
 .container {
     display: flex;                                    /* Active le mode flexbox */
-    justify-content: space-between;                   /* Espace les éléments à gauche et à droite */
-    align-items: center;                              /* Aligne verticalement au centre (optionnel) */
+    width: 100%;                                      /* Prend toute la largeur disponible */
+    height: auto;                                     /* Hauteur automatique en fonction du contenu */
+    gap: 20px;                                        /* Espace entre les sections */
+    padding: 10px;                                    /* Espacement interne */
+    box-sizing: border-box;                           /* Inclut le padding dans la taille totale */
+    /* background-color: blue; */                     /* Couleur de fond pour visualiser le conteneur */
 }
 .left-section {
     flex: 1;                                          /* Prend 50% de l'espace disponible */
-    text-align: left;                                 /* Alignement du texte à gauche */
+    text-align: justify;                              /* Alignement du texte justifié */
 }
 .middle-section {
-    flex: 1;                                          /* Prend 1/3 de l'espace disponible */
-    text-align: center;                               /* Alignement du texte au centre */
+    flex: 1;                                          /* Prend 50% de l'espace disponible */
+    text-align: justify;                              /* Alignement du texte justifié */
 }
 .right-section {
     flex: 1;                                          /* Prend 50% de l'espace disponible */
-    text-align: right;                                /* Alignement du contenu à droite */
-}
-.right-section img {
-    max-width: 100%;                                  /* Assure que l'image ne dépasse pas de sa div */
-    height: auto;                                     /* Garde les proportions de l'image */
+    text-align: justify;                              /* Alignement du texte justifié */
 }
 /* -------------------------------------------------- */
 a {
@@ -75,4 +88,9 @@ a:hover {
 }
 a:visited {
     color: inherit;                                   /* Enlève l'effet "déjà cliqué" */
+}
+/* -------------------------------------------------- */
+.custom-image {
+  width: 100%; /* Largeur fixe */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
 }
