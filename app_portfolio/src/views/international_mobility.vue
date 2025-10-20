@@ -1,16 +1,16 @@
 <!-- src/views/international_mobility.vue -->
 <template>
-    <div>
+    <div class="padded1">
         <h1>International Mobility Projects</h1>
 
-        <div>
+        <section>
             <h2>Semester Exchange</h2>
             
-            <p>ENSEEIHT permit to student to go on an student exchange program for full semeter S9. As we are now in the applyting periode, y would like to go (by order of preference) : </p>
+            <p>ENSEEIHT allows students to participate in a student exchange program for the full S9 semester. As the application period is now open, I would like to apply and indicate my preferred destinations, in order of preference:</p>
             
             <div class="container">    
                 <section class="left-section">
-                    <h3><a href="https://www.ntnu.edu/" target="_blank">Norway : Norwegian University of Science and Technology</a></h3>
+                    <h3><a href="https://www.ntnu.edu/" target="_blank">Norway : Norges teknisk-naturvitenskapelige universitet </a></h3>
                     <p>I would like to follow the following courses : </p>
                     <ul>
                         <li><a href="https://www.ntnu.edu/studies/courses/TTT4234/2025/1#tab=omEmnet" target="_blank">Space Technology I</a></li>
@@ -33,6 +33,9 @@
                         allowfullscreen>
                     </iframe>
                 </section>
+                <section class="middle-section">
+                    <img class="custom-image" src="/img/ntnu_front.jpg" alt="HomeBox"/>
+                </section> 
             </div>
             <div class="container">    
                 <section class="left-section">
@@ -45,24 +48,40 @@
                     </ul>
                 </section>
                 <section class="right-section">
+                    <img class="custom-image" src="/img/lulea_logo.jpg" alt="HomeBox"/>
+                </section> 
+                <section class="right-section">
                     <img class="custom-image" src="/img/lulea.jpg" alt="HomeBox"/>
                 </section>  
             </div>
-            <div>
-                <h3><a href="https://www.ericsson.com/en" target="_blank" rel="noopener noreferrer">Cybersecurity</a></h3>
-                <p>Contribute to the IoT ecosystem in Sweden by developing innovative cybersecurity solutions for smart cities. Sweden cities : Stockholm, Gothenburg, Lund</p>
-            </div>  
-        </div>
+            <div class="container">    
+                <section class="left-section">
+                    <h3><a href="https://www.ltu.se/" target="_blank">Sweden : Luleå University of Technology</a></h3>
+                    <p>I would like to follow the following courses : </p>
+                    <ul>
+                        <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7042E" target="_blank">IoT-based industrial automation and digitalization</a></li>
+                        <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7018B" target="_blank">Industrial AI for Operation and Maintenance</a></li>
+                        <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7070E" target="_blank">Foundations of Private Key Cryptography</a></li>
+                    </ul>
+                </section>
+                <section class="right-section">
+                    <img class="custom-image" src="/img/lulea_logo.jpg" alt="HomeBox"/>
+                </section> 
+                <section class="right-section">
+                    <img class="custom-image" src="/img/lulea.jpg" alt="HomeBox"/>
+                </section>  
+            </div>
+        </section>
 
-        <div>
+        <section>
             <h2>PCE</h2>
             <p>Dive into my enriching experiences with the Personal and Cultural Engagement program.</p>
-        </div>
+        </section>
 
-        <div>
+        <section>
             <h2>LV2</h2>
             <p>Explore my journey of mastering a second language to enhance cross-cultural communication.</p>
-        </div>
+        </section>
 
     </div>
 </template>

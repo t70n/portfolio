@@ -69,6 +69,11 @@ button:hover {
     flex: 1;                                          /* Prend 50% de l'espace disponible */
     text-align: justify;                              /* Alignement du texte justifié */
 }
+.left-section img {
+    max-width: 100%;                                  /* L'image ne dépasse pas la largeur de son conteneur */
+    height: auto;                                     /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+    display: block;                                   /* Évite les espaces indésirables sous l'image */
+}
 .middle-section {
     flex: 1;                                          /* Prend 50% de l'espace disponible */
     text-align: justify;                              /* Alignement du texte justifié */
@@ -76,6 +81,20 @@ button:hover {
 .right-section {
     flex: 1;                                          /* Prend 50% de l'espace disponible */
     text-align: justify;                              /* Alignement du texte justifié */
+}
+.right-section img {
+    max-width: 100%;                                  /* L'image ne dépasse pas la largeur de son conteneur */
+    height: auto;                                     /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+    display: block;                                   /* Évite les espaces indésirables sous l'image */
+}
+.split-section {
+    flex: 1;                                          /* Prend 50% de l'espace disponible */
+    text-align: justify;                              /* Alignement du texte justifié */
+}
+.split-section img {
+    max-width: 100%;                                  /* L'image ne dépasse pas la largeur de son conteneur */
+    height: auto;                                     /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+    display: block;                                   /* Évite les espaces indésirables sous l'image */
 }
 /* -------------------------------------------------- */
 a {

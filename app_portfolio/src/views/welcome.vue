@@ -1,7 +1,7 @@
 <!-- src/views/welcome.vue -->
 <template>
     <div class="container">
-        <div class="left-section">
+        <div class="split-section">
             <section>
                 <h1 class="page_title centered">WELCOME TO MY E-PORTFOLIO</h1>
                 <h2 class="page_subtitle centered">Pierre CHAVEROUX - 23 years old - Apprentice IoT Engineer</h2>
@@ -24,7 +24,7 @@
                 <p>For a more up-to-date connection, let's connect on LinkedIn: <a href="https://www.linkedin.com/in/pierre-chaveroux/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
             </section>
         </div>
-        <div class="right-section">
+        <div class="split-section">
             <section>
                 <img class="custom-image" src="/img/ensseih_front_porch.jpg" alt="ENSSEIHT Front Porch" />
             </section>
