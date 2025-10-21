@@ -3,13 +3,13 @@
     <div class="padded1">
         <h1>International Mobility Projects</h1>
 
-        <section>
-            <h2>Semester Exchange</h2>
+        <div>
+            <h2 class="padded2">Semester Exchange</h2>
             
-            <p>ENSEEIHT allows students to participate in a student exchange program for the full S9 semester. As the application period is now open, I would like to apply and indicate my preferred destinations, in order of preference:</p>
+            <p class="padded2">ENSEEIHT allows students to participate in a student exchange program for the full S9 semester. As the application period is now open, I would like to apply and indicate my preferred destinations, in order of preference:</p>
             
             <div class="container">    
-                <section class="left-section">
+                <section class="split-section">
                     <h3><a href="https://www.ntnu.edu/" target="_blank">Norway : Norges teknisk-naturvitenskapelige universitet </a></h3>
                     <p>I would like to follow the following courses : </p>
                     <ul>
@@ -22,7 +22,7 @@
                         <li><a href="https://www.ntnu.edu/studies/courses/IT3708/2025/1#tab=omEmnet" target="_blank">Bio-Inspired Artificial Intelligence</a></li>
                     </ul>
                 </section>
-                <section class="right-section">
+                <section class="split-section">
                     <iframe
                         width="100%"
                         height="100%"
@@ -32,13 +32,13 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
-                </section>
-                <section class="middle-section">
+                </section>  
+                <section class="msplitiddle-section">
                     <img class="custom-image" src="/img/ntnu_front.jpg" alt="HomeBox"/>
                 </section> 
             </div>
             <div class="container">    
-                <section class="left-section">
+                <section class="split-section">
                     <h3><a href="https://www.ltu.se/" target="_blank">Sweden : Luleå University of Technology</a></h3>
                     <p>I would like to follow the following courses : </p>
                     <ul>
@@ -47,15 +47,15 @@
                         <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7070E" target="_blank">Foundations of Private Key Cryptography</a></li>
                     </ul>
                 </section>
-                <section class="right-section">
+                <section class="split-section">
                     <img class="custom-image" src="/img/lulea_logo.jpg" alt="HomeBox"/>
                 </section> 
-                <section class="right-section">
+                <section class="split-section">
                     <img class="custom-image" src="/img/lulea.jpg" alt="HomeBox"/>
                 </section>  
             </div>
             <div class="container">    
-                <section class="left-section">
+                <section class="split-section">
                     <h3><a href="https://www.ltu.se/" target="_blank">Sweden : Luleå University of Technology</a></h3>
                     <p>I would like to follow the following courses : </p>
                     <ul>
@@ -64,24 +64,30 @@
                         <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7070E" target="_blank">Foundations of Private Key Cryptography</a></li>
                     </ul>
                 </section>
-                <section class="right-section">
+                <section class="split-section">
                     <img class="custom-image" src="/img/lulea_logo.jpg" alt="HomeBox"/>
                 </section> 
-                <section class="right-section">
+                <section class="split-section">
                     <img class="custom-image" src="/img/lulea.jpg" alt="HomeBox"/>
                 </section>  
             </div>
-        </section>
+        </div>
 
-        <section>
-            <h2>PCE</h2>
-            <p>Dive into my enriching experiences with the Personal and Cultural Engagement program.</p>
-        </section>
+        <div>
+            <h2 class="padded2">PCE</h2>
+            <p class="padded2">Dive into my enriching experiences with the Personal and Cultural Engagement program.</p>
+            <section>
+                <h3 class="page_title centered">IN CONSTRUCTION... COMING SOON!</h3>
+            </section>
+        </div>
 
-        <section>
-            <h2>LV2</h2>
-            <p>Explore my journey of mastering a second language to enhance cross-cultural communication.</p>
-        </section>
+        <div>
+            <h2 class="padded2">LV2</h2>
+            <p class="padded2">Explore my journey of mastering a second language to enhance cross-cultural communication.</p>
+            <section>
+                <h3 class="page_title centered">IN CONSTRUCTION... COMING SOON!</h3>
+            </section>
+        </div>
 
     </div>
 </template>
