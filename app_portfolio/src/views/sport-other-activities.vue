@@ -8,23 +8,48 @@
             <p class="padded2">Gain insights into my hands-on industry experiences and the skills I developed during my apprenticeship.</p>
             <div class="container">
                 <section class="split-section">
-                    <p>Having played guitar during my middle school years, I was thrilled to pick up the instrument again by joining the Zik club at ENSEEIHT. I now play electric guitar in Night Suze, a rock-oriented band. Here’s a photo from our first concert at the FOY in N7!</p>
+                    <p>After many years of practicing martial arts (see my earlier post), I’ve discovered another sporting passion: rock climbing. I mainly do bouldering, drawn to the sport for both its physical demands and the mental challenge it presents.</p> 
+                    <p>Every climb requires strategy and problem-solving, making it as much a test of the mind as it is of strength and agility.</p>
+                    <p>Over the next few months, I plan to upgrade my climbing by tackling lead climbing and outdoor routes.</p>
                 </section>
                 <section class="split-section">
-                    <img src="/img/concert_1a.png" alt="Night Suze Concert at FOY N7"/>
+                    <img src="/img/concert_foy2.jpg" alt="Night Suze Concert at FOY N7 "/>
                 </section>
             </div>
         </div>
 
         <div>
-            <h2 class="padded2">Guitare</h2>
             <div class="container">
                 <section class="split-section">
-                    <p>Having played guitar during my middle school years, I was thrilled to pick up the instrument again by joining the Zik club at ENSEEIHT. I now play electric guitar in Night Suze, a rock-oriented band. Here’s a photo from our first concert at the FOY in N7!</p>
+                    <h2 class="centered">Music</h2>
+                    <p>As a child, I started playing guitar at my town’s music school, where I developed a passion for the instrument. I played in several bands through the Rockschool initiative. Later, I took up drums to mix things up and explore new joys.</p>
+                    <p>More recently, when I started at ENSEEIHT, I joined a band called NightSuze, a rock cover band playing artists like Muse, Måneskin, Bruno Mars, and more (see the photo from our first gig at the student union).</p>
+                    <p>Currently, I’m leaning toward a more classical style, finding joy in playing video game soundtracks like <a href="https://en.wikipedia.org/wiki/The_Last_of_Us" target="_blank" rel="noopener">The Last of Us</a> or <a href="https://en.wikipedia.org/wiki/Clair_Obscur:_Expedition_33" target="_blank" rel="noopener">Clair Obscur Expedition 33</a>.</p>
+                    <div class="container">
+                        <section class="split-section">
+                            <img src="/img/concert_foy1.jpg" title="Night Suze Concert n°1 at FOY N7 - Credit Photo : Photo7" alt="Night Suze Concert n°1 at FOY N7 - Credit Photo : Photo7"/>
+                        </section>
+                        <section class="split-section">
+                            <img src="/img/concert_foy2.jpg" title="Night Suze Concert n°2 at FOY N7 - Credit Photo : Photo7" alt="Night Suze Concert n°2 at FOY N7 - Credit Photo : Photo7"/>
+                        </section>
+                    </div>
                 </section>
                 <section class="split-section">
-                    <img src="/img/concert_1a.png" alt="Night Suze Concert at FOY N7"/>
+                    <h2 class="centered">Moto</h2>
+                    <p>Motorcycles have always been a part of my life. Growing up around riders, I got my license right after finishing my first biology degree. Since then, my bike has been my main mode of transportation. I love riding mountain and country roads, where I find a special kind of joy in the saddle.</p>
+                    <p>As someone who enjoys hiking, I’m now planning to start motorcycle touring, with a mid-term goal of traveling abroad on two wheels.</p>
+                    <div class="container">
+                        <section class="split-section">
+                            <img src="/img/moto1.jpeg" alt="Ride in the Cantal"/>
+                        </section>
+                        <section class="split-section">
+                            <img src="/img/moto2.jpeg" alt="Flower Helmet"/>
+                        </section>
+                    </div>
                 </section>
+                    
+ 
+                
             </div>
         </div>
 
@@ -33,10 +58,14 @@
             <p class="padded2">Gain insights into my hands-on industry experiences and the skills I developed during my apprenticeship.</p>
             <div class="container">
                 <section class="split-section">
-                    <p>Having played guitar during my middle school years, I was thrilled to pick up the instrument again by joining the Zik club at ENSEEIHT. I now play electric guitar in Night Suze, a rock-oriented band. Here’s a photo from our first concert at the FOY in N7!</p>
+                    <img src="/img/moto1.jpeg" alt="Ride in the Cantal"/>
                 </section>
                 <section class="split-section">
-                    <img src="/img/concert_1a.png" alt="Night Suze Concert at FOY N7"/>
+                    <p>Motorcycles have always been a part of my life. Growing up around riders, I got my license right after finishing my first biology degree. Since then, my bike has been my main mode of transportation. I love riding mountain and country roads, where I find a special kind of joy in the saddle.</p>
+                    <p>As someone who enjoys hiking, I’m now planning to start motorcycle touring, with a mid-term goal of traveling abroad on two wheels.</p>
+                </section>
+                <section class="split-section">
+                    <img src="/img/moto2.jpeg" alt="Flower Helmet"/>
                 </section>
             </div>
         </div>
