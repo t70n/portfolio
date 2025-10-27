@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  text-align: justify;
+}
+/* -------------------------------------------------- */
+section {                                        
+  margin: 1%;                                         /* Marge autour des sections */           
+  padding: 1%;                                        /* Espacement interne */
+  background-color: #ffffff;                        /* Couleur de fond blanche */          
+  border: #ffc300 2px solid;                        /* Bordure jaune */
+  box-sizing: border-box;                             /* Ajout pour éviter le débordement */
+}
+div {
+  box-sizing: border-box;                             /* Ajout pour éviter le débordement */
+  overflow: hidden;                                   /* Ajout pour éviter le débordement */
+  /* background-color: #f10a0a; */                    /* Couleur de fond pour visualiser les divs */  
+}
+/* -------------------------------------------------- */
+h1, h2, h3 {                                             
+  color: #ffc300;                                 /* Couleur du texte */
+}
+.centered {
+  text-align: center;                               /* Centrer le texte */
+}
+.padded1 {
+  padding-left: 1%;
+}
+.padded2 {
+  padding-left: 2%;
+}
+.page_title {
+  color: #ffc300;                                 /* Couleur du texte */       
+}
+.page_subtitle {
+  color: #000000;                                 /* Couleur du texte */                       
+}
+p, ul, li {                                           
+  color:#000000;                                    /* Couleur du texte */  
+}
+/* -------------------------------------------------- */
+button {
+  border: 1px solid transparent;                      /* Bordure initiale transparente */
+  padding: 0.6em 1.2em;                               /* Espacement interne */
+  font-size: 1em;                                     /* Taille de la police */
+  font-weight: 500;                                   /* Épaisseur de la police */
+  font-family: inherit;                               /* Hérite de la police du parent */
+  background-color: #ffc300;                        /* Couleur de fond */
+}
+button:hover {
+  border-color: #000000;                            /* Couleur de la bordure au survol */
+}
+.button-section {
+  display: flex;                                      /* Active le mode flexbox */
+  justify-content: center;                            /* Centre les boutons horizontalement */
+  gap: 25%;                                           /* Espace les boutons de 25% */
+}
+/* -------------------------------------------------- */
+.container {
+    display: flex;                                    /* Active le mode flexbox */
+    width: 100%;                                      /* Prend toute la largeur disponible */
+    height: auto;                                     /* Hauteur automatique en fonction du contenu */
+    gap: 20px;                                        /* Espace entre les sections */
+    padding: 10px;                                    /* Espacement interne */
+    box-sizing: border-box;                           /* Inclut le padding dans la taille totale */
+    /* background-color: blue; */                     /* Couleur de fond pour visualiser le conteneur */
+}
+.left-section {
+    flex: 1;                                          /* Prend 50% de l'espace disponible */
+    text-align: justify;                              /* Alignement du texte justifié */
+}
+.left-section img {
+    max-width: 100%;                                  /* L'image ne dépasse pas la largeur de son conteneur */
+    height: auto;                                     /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+    display: block;                                   /* Évite les espaces indésirables sous l'image */
+}
+.middle-section {
+    flex: 1;                                          /* Prend 50% de l'espace disponible */
+    text-align: justify;                              /* Alignement du texte justifié */
+}
+.right-section {
+    flex: 1;                                          /* Prend 50% de l'espace disponible */
+    text-align: justify;                              /* Alignement du texte justifié */
+}
+.right-section img {
+    max-width: 100%;                                  /* L'image ne dépasse pas la largeur de son conteneur */
+    height: auto;                                     /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+    display: block;                                   /* Évite les espaces indésirables sous l'image */
+}
+.split-section {
+    flex: 1;                                          /* Prend 50% de l'espace disponible */
+    text-align: justify;                              /* Alignement du texte justifié */
+}
+.split-section img {
+    max-width: 100%;                                  /* L'image ne dépasse pas la largeur de son conteneur */
+    height: auto;                                     /* La hauteur s'ajuste automatiquement pour conserver les proportions */
+    display: block;                                   /* Évite les espaces indésirables sous l'image */
+}
+/* -------------------------------------------------- */
+a {
+  color: #ffc300;                                   /* Couleur des liens */
+  text-decoration: none;                              /* Supprime le soulignement des liens */
+}
+a:hover {
+  color: #ffd60a;                                   /* Couleur des liens au survol */
+  text-decoration: underline;                         /* Ajoute un soulignement au survol */
+}
+a:visited {
+    color: inherit;                                   /* Enlève l'effet "déjà cliqué" */
+}
+/* -------------------------------------------------- */
+.custom-image {
+  width: 100%; /* Largeur fixe */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+/* -------------------------------------------------- */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+.custom-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 0;
+}
+
+.carousel-control.next {
+    right: 0;
+}
+
+.custom-video {
+    width: 100%;     /* 50% de la largeur du conteneur parent */
+    height: auto;   /* Ajuste automatiquement la hauteur pour conserver les proportions */
+    display: block;
+    margin: 0 auto; /* Centre la vidéo horizontalement */
+}
+
