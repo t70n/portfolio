@@ -1,67 +1,38 @@
+# Fichiers système macOS
 .DS_Store
-node_modules
-#/dist
 
-# local env files
+# Dossier des dépendances Node.js
+node_modules/
+
+# Fichiers de build
+/dist
+
+# Fichiers d'environnement local
 .env.local
 .env.*.local
 
-# Log files
+# Fichiers de log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editor directories and files
-.idea
-.vscode
+# Fichiers de cache et verrous de dépendances
+.lerna
+.cache
+node_modules/
+
+# Fichiers de configuration IDE/éditeur (optionnel)
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.tsbuildinfo
 
-# Fichiers et dossiers générés par Node.js
-node_modules/
-.env
-.env.local
-.env.development
-.env.test
-.env.production
-
-# Fichiers de build et logs
-.DS_Store
-*.log
-
-# Fichiers de cache
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-.lerna
-.vercel
-.netlify
-.cache
-
-# Fichiers de dépendances
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
-# Fichiers de configuration spécifiques à l'IDE
-*.iml
-
+# Fichiers de tests Cypress (si tu ne les utilises pas)
 /cypress/videos/
 /cypress/screenshots/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-*.tsbuildinfo
