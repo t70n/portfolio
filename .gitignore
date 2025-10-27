@@ -23,7 +23,6 @@ pnpm-debug.log*
 
 # Fichiers et dossiers générés par Node.js
 node_modules/
-dist/
 .env
 .env.local
 .env.development
