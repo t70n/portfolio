@@ -4,7 +4,14 @@
         <h1 class="padded1">Career Development</h1>
 
         <div>
-            <h2 class="padded2">Meet My Mentors</h2>
+            <video class="custom-video" controls muted style="width: 50%; height: auto;">
+                <source src="/vid/pitch.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div>
+            <h2 class="padded2">Meet My Mentors</h2> 
             <p class="padded2">This section highlights the pivotal influences and key moments that have shaped my professional journey. Throughout my career, I have been fortunate to cross paths with mentors who not only shared their expertise but also inspired me to pursue excellence and growth. Here, I introduce three mentors whose guidance, wisdom, and passion have left an indelible impact on my career. Each of them has contributed to my development in unique ways, from technical skills to leadership insights.</p>
             <div class="container">
                 <div class="split-section">
