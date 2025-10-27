@@ -46,7 +46,7 @@
                 </section>
                 <section class="split-section">
                     <br>
-                    <div class="page_title centered">
+                    <div class="button-section">
                         <a href="https://alsatis-reseaux.com/" target="_blank" rel="noopener noreferrer"><img src="/img/alsatis_reseaux_logo.png" alt="Alsatis Logo"/></a>
                     </div>
                     <br>

@@ -16,12 +16,23 @@
                     <li>My professional growth in Career Development</li>
                 </ul>
             </section>
-            <section class="button-section">
-                <button type="button" @click="downloadCV('cv_pierre_chaveroux_fr.pdf')">Download CV (FR)</button>
-                <button type="button" @click="downloadCV('cv_pierre_chaveroux_en.pdf')">Download CV (EN)</button>
+
+            <section>
+                <p>Explore my professional journey by downloading my CV:</p>
+                <br>
+                <div class="button-section">
+                    <button type="button" @click="downloadCV('cv_pierre_chaveroux_fr.pdf')">Download CV (FR)</button>
+                    <button type="button" @click="downloadCV('cv_pierre_chaveroux_en.pdf')">Download CV (EN)</button>
+                </div>
+                <br>
             </section>
             <section>
-                <p>For a more up-to-date connection, let's connect on LinkedIn: <a href="https://www.linkedin.com/in/pierre-chaveroux/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+                <p>For a more up-to-date connection, let's connect on LinkedIn:</p>
+                <br>
+                <div class="button-section">
+                    <button type="button"><a href="https://www.linkedin.com/in/pierre-chaveroux/" target="_blank" rel="noopener">LinkedIn Profile</a></button>
+                </div>
+                <br>
             </section>
         </div>
         <div class="split-section">

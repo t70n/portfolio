@@ -74,6 +74,15 @@
         </div>
 
         <div>
+            <h2 class="padded2">LV2</h2>
+            <section>
+                <p>My English proficiency (B2/C1) is the result of both academic and professional experience.</p>
+                <p>English has always been a core part of my education, where I achieved a B2/C1 level. Today, I use it daily at Alsatis Réseaux, particularly for communicating with our international partners. I also draft workshops for WOCSA in English.</p>
+                <p>Outside of work, I enjoy practicing English in everyday life, whether it’s chatting with friends, watching films in their original version, or staying updated on diverse topics.</p>
+            </section>
+        </div>
+
+        <div>
             <h2 class="padded2">PCE</h2>
             <p class="padded2">Dive into my enriching experiences with the Personal and Cultural Engagement program.</p>
             <section>
@@ -81,13 +90,7 @@
             </section>
         </div>
 
-        <div>
-            <h2 class="padded2">LV2</h2>
-            <p class="padded2">Explore my journey of mastering a second language to enhance cross-cultural communication.</p>
-            <section>
-                <h3 class="page_title centered">IN CONSTRUCTION... COMING SOON!</h3>
-            </section>
-        </div>
+        
 
     </div>
 </template>
