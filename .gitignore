@@ -1,0 +1,68 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Fichiers et dossiers générés par Node.js
+node_modules/
+dist/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Fichiers de build et logs
+.DS_Store
+*.log
+
+# Fichiers de cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.lerna
+.vercel
+.netlify
+.cache
+
+# Fichiers de dépendances
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Fichiers de configuration spécifiques à l'IDE
+*.iml
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
