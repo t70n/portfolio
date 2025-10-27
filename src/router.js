@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-
 import Welcome from './views/welcome.vue';
 import Engineering_Course from './views/engineering_course.vue';
 import International_Mobility from './views/international_mobility.vue';
@@ -17,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL), // Utilise BASE_URL défini dans vite.config.js
     routes
 });
 
