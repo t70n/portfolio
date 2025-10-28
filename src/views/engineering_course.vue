@@ -44,7 +44,7 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
-                        <img class="custom-image" src="/img/5g_coverage.png" alt="Toulouse 5G Coverage"/>
+                        <img class="custom-image" src="/img/5g_coverage.png" title="Toulouse 5G Coverage - Source : https://www.zoneadsl.com/couverture-mobile/haute-garonne/toulouse-31000.html" alt="Toulouse 5G Coverage - Source : https://www.zoneadsl.com/couverture-mobile/haute-garonne/toulouse-31000.html"/>
                     </section>
                 </div>
             </section>
