@@ -54,23 +54,6 @@
                     <img class="custom-image" src="/img/lulea.jpg" alt="HomeBox"/>
                 </section>  
             </div>
-            <div class="container">    
-                <section class="split-section">
-                    <h3><a href="https://www.ltu.se/" target="_blank">Sweden : Luleå University of Technology</a></h3>
-                    <p>I would like to follow the following courses : </p>
-                    <ul>
-                        <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7042E" target="_blank">IoT-based industrial automation and digitalization</a></li>
-                        <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7018B" target="_blank">Industrial AI for Operation and Maintenance</a></li>
-                        <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7070E" target="_blank">Foundations of Private Key Cryptography</a></li>
-                    </ul>
-                </section>
-                <section class="split-section">
-                    <img class="custom-image" src="/img/lulea_logo.jpg" alt="HomeBox"/>
-                </section> 
-                <section class="split-section">
-                    <img class="custom-image" src="/img/lulea.jpg" alt="HomeBox"/>
-                </section>  
-            </div>
         </div>
 
         <div>
