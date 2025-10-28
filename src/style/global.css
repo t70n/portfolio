@@ -46,6 +46,7 @@ button {
   font-weight: 500;                                   /* Épaisseur de la police */
   font-family: inherit;                               /* Hérite de la police du parent */
   background-color: #ffc300;                        /* Couleur de fond */
+  color: #000000;                                   /* Couleur du texte */
 }
 button:hover {
   border-color: #000000;                            /* Couleur de la bordure au survol */
@@ -98,11 +99,11 @@ button:hover {
 }
 /* -------------------------------------------------- */
 a {
-  color: #ffc300;                                   /* Couleur des liens */
+  color: #000000;                                   /* Couleur des liens */
   text-decoration: none;                              /* Supprime le soulignement des liens */
 }
 a:hover {
-  color: #ffd60a;                                   /* Couleur des liens au survol */
+  color: #000000;                                   /* Couleur des liens au survol */
   text-decoration: underline;                         /* Ajoute un soulignement au survol */
 }
 a:visited {
