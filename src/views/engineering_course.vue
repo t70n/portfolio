@@ -150,7 +150,7 @@
                         <p>The real-world test with the Adalm Pluto was especially rewarding. Initially, I tried jamming a car's radio communication, but the jammer lacked the necessary power. Instead, I successfully jammed a Wi-Fi access point.</p>
                         <br>
                         <div class="button-section">
-                            <button type="button" @click="downloadCV('sae31_rapport_chaveroux_halidi.pdf')">Download Full Report (FR)</button>
+                            <button type="button"><a href="/portfolio/pdf/sae31_rapport_chaveroux_halidi.pdf" target="_blank" rel="noopener noreferrer" class="button-link">Download Full Report (FR)</a></button>
                         </div>
                     </section>
                     <section class="split-section">
@@ -169,7 +169,7 @@
                     </section>
                     <section class="split-section">
                         <h3 class="centered">Radio Listener</h3>
-                        <p>This project aimed to understand FM radio signal modulati    on/demodulation by using the HackRF One SDR (Software-Defined Radio) to capture, process, and play live radio broadcasts.</p>
+                        <p>This project aimed to understand FM radio signal modulation/demodulation by using the HackRF One SDR (Software-Defined Radio) to capture, process, and play live radio broadcasts.</p>
                         <p>Key Tools & Workflow:</p>
                         <ul>
                             <li>HackRF One: Captured raw FM radio signals.</li>
@@ -190,12 +190,7 @@
 </template>
 
 <script>
-import { downloadCV } from '@/utils'; 
-
 export default {
-    name: 'EngineeringCourse',
-    methods: {
-        downloadCV 
-    }
+    name: 'EngineeringCourse'
 };
 </script>

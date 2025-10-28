@@ -21,16 +21,17 @@
                 <p>Explore my professional journey by downloading my CV:</p>
                 <br>
                 <div class="button-section">
-                    <button type="button" @click="downloadCV('cv_pierre_chaveroux_fr.pdf')">Download CV (FR)</button>
-                    <button type="button" @click="downloadCV('cv_pierre_chaveroux_en.pdf')">Download CV (EN)</button>
+                    <button type="button"><a href="/portfolio/pdf/cv_pierre_chaveroux_fr.pdf" target="_blank" rel="noopener noreferrer">Download CV (FR)</a></button>
+                    <button type="button"><a href="/portfolio/pdf/cv_pierre_chaveroux_en.pdf" target="_blank" rel="noopener noreferrer">Download CV (EN)</a></button>
                 </div>
                 <br>
             </section>
             <section>
-                <p>For a more up-to-date connection, let's connect on LinkedIn:</p>
+                <p>For a more up-to-date connection, let's connect on LinkedIn and GitHub:</p>
                 <br>
                 <div class="button-section">
                     <button type="button"><a href="https://www.linkedin.com/in/pierre-chaveroux/" target="_blank" rel="noopener">LinkedIn Profile</a></button>
+                    <button type="button"><a href="https://github.com/t70n/" target="_blank" rel="noopener">GitHub Profile</a></button>
                 </div>
                 <br>
             </section>
@@ -45,13 +46,8 @@
 
 <script>
 
-import { downloadCV } from '@/utils'; 
-
 export default {
-    name: 'Welcome',
-    methods: {
-        downloadCV 
-    }
+    name: 'Welcome'
 };
 
 </script>
