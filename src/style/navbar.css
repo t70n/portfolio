@@ -32,3 +32,16 @@
 .navbar_title:visited {
     color: inherit;                                         /* Enlève l'effet "déjà cliqué" */
 }
+@media (max-width: 1400px) {
+  .navbar {
+    flex-direction: column; /* Les liens s'affichent en colonne */
+    align-items: center; /* Centre les liens horizontalement */
+  }
+
+  .navbar a {
+    width: 100%; /* Chaque lien prend toute la largeur */
+    text-align: center; /* Centre le texte */
+    padding: 12px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Ligne de séparation */
+  }
+}

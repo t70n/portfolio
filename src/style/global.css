@@ -164,3 +164,33 @@ a:visited {
     margin: 0 auto; /* Centre la vidéo horizontalement */
 }
 
+/* Styles par défaut pour les grands écrans */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        flex-direction: column;
+    }
+    .split-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .custom-video {
+        width: 100%;
+    }
+    section {
+        margin: 2% 0;
+        padding: 2%;
+    }
+    .padded1, .padded2 {
+        padding-left: 0;
+    }
+}
