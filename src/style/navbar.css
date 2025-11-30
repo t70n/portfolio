@@ -6,6 +6,7 @@
   justify-content: space-around;                            /* Espacement égal entre les éléments */
   align-items: center;                                      /* Alignement vertical des éléments */
   position: sticky;                                         /* Barre de navigation fixe en haut de la page */
+  flex-wrap: wrap;                                          /* Permet le retour à la ligne */
 }
 /* Style des liens dans la barre de navigation */
 .navbar a {
@@ -14,6 +15,7 @@
   font-size: 18px;                                          /* Taille de la police */
   font-weight: 500;                                         /* Épaisseur de la police */
   transition: color 0.3s ease;                              /* Animation pour le survol */
+  box-sizing: border-box;
 }
 /* Effet de survol pour les liens */
 .navbar a:hover {
@@ -32,16 +34,24 @@
 .navbar_title:visited {
     color: inherit;                                         /* Enlève l'effet "déjà cliqué" */
 }
-@media (max-width: 1400px) {
-  .navbar {
-    flex-direction: column; /* Les liens s'affichent en colonne */
-    align-items: center; /* Centre les liens horizontalement */
-  }
 
+/* Responsive Navbar */
+@media (max-width: 1200px) {
   .navbar a {
-    width: 100%; /* Chaque lien prend toute la largeur */
-    text-align: center; /* Centre le texte */
-    padding: 12px 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Ligne de séparation */
+    width: 33.33%;      /* 3 colonnes */
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar a {
+    width: 50%;         /* 2 colonnes */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar a {
+    width: 100%;        /* 1 colonne sur très petits écrans */
   }
 }

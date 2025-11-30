@@ -1,7 +1,7 @@
 <!-- src/views/welcome.vue -->
 <template>
     <div class="container">
-        <div class="split-section">
+        <div class="split-section flex-grow">
             <section>
                 <h1 class="page_title centered">WELCOME TO MY E-PORTFOLIO</h1>
                 <h2 class="page_subtitle centered">Pierre CHAVEROUX - 23 years old - Apprentice IoT Engineer</h2>
@@ -36,9 +36,9 @@
                 <br>
             </section>
         </div>
-        <div class="split-section">
+        <div class="split-section flex-shrink">
             <section>
-                <img class="custom-image" src="/img/ensseih_front_porch.jpg" alt="ENSSEIHT Front Porch" />
+                <img class="img-cover" src="/img/ensseih_front_porch.jpg" alt="ENSSEIHT Front Porch" />
             </section>
         </div>
     </div>

@@ -16,26 +16,26 @@
             <div class="container">
                 <section class="split-section">
                     <h2 class="centered">September 2025 - Labege : REMPAR25</h2>
-                    <img class="custom-image" src="/img/wocsa_rempar25.jpeg" alt="WOCSA Animator for ANSSI REMPAR25 - Labege 2025" style="max-width: 100%; height: auto;"/>
+                    <img class="img-cover" src="/img/wocsa_rempar25.jpeg" alt="WOCSA Animator for ANSSI REMPAR25 - Labege 2025" style="max-width: 100%; height: auto;"/>
                 </section>
                 <section class="split-section">
                     <h2  class="centered">October 2025 - Paris : IoT Workshop</h2>
-                    <img class="custom-image" src="/img/wocsa_paris_2025.jpeg" alt="WOCSA IoT Workshop - Paris 2025" style="max-width: 100%; height: auto;"/>
+                    <img class="img-cover" src="/img/wocsa_paris_2025.jpeg" alt="WOCSA IoT Workshop - Paris 2025" style="max-width: 100%; height: auto;"/>
                 </section>
             </div>
 
             <div class="container">
                 <section class="split-section">
                     <h2 class="centered">October 2024 - Paris : IoT Workshop</h2>
-                    <img class="custom-image" src="/img/wocsa_paris_2024.jpg" alt="WOCSA IoT Workshop - Paris 2024" style="max-width: 100%; height: auto;"/>
+                    <img class="img-cover" src="/img/wocsa_paris_2024.jpg" alt="WOCSA IoT Workshop - Paris 2024" style="max-width: 100%; height: auto;"/>
                 </section>
                 <section class="split-section">
                     <h2 class="centered">November 2024 - Toulouse : Capitole du Libre</h2>
-                    <img class="custom-image" src="/img/wocsa_capitole_du_libre_2024.jpeg" alt="WOCSA Capitole du Libre Workshop - Toulouse 2024" style="max-width: 100%; height: auto;"/>
+                    <img class="img-cover" src="/img/wocsa_capitole_du_libre_2024.jpeg" alt="WOCSA Capitole du Libre Workshop - Toulouse 2024" style="max-width: 100%; height: auto;"/>
                 </section>
                 <section class="split-section">
                     <h2 class="centered">December 2024 - Toulouse : Santa Workshop</h2>
-                    <img class="custom-image" src="/img/wocsa_toulouse_workshop.jpeg" alt="WOCSA Workshop - Toulouse 2024" style="max-width: 100%; height: auto;"/>
+                    <img class="img-cover" src="/img/wocsa_toulouse_workshop.jpeg" alt="WOCSA Workshop - Toulouse 2024" style="max-width: 100%; height: auto;"/>
                 </section>
             </div>
             

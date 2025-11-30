@@ -8,8 +8,12 @@
             
             <p class="padded2">ENSEEIHT allows students to participate in a student exchange program for the full S9 semester. As the application period is now open, I would like to apply and indicate my preferred destinations, in order of preference:</p>
             
-            <div class="container">    
-                <section class="split-section">
+            <div class="container">   
+                  
+                <section class="split-section flex-shrink">
+                    <img class="img-cover" src="/img/ntnu_front.jpg" alt="HomeBox"/>
+                </section>  
+                <section class="split-section flex-grow">
                     <h3><a href="https://www.ntnu.edu/" target="_blank">Norway : Norges teknisk-naturvitenskapelige universitet </a></h3>
                     <p>I would like to follow the following courses : </p>
                     <ul>
@@ -22,7 +26,7 @@
                         <li><a href="https://www.ntnu.edu/studies/courses/IT3708/2025/1#tab=omEmnet" target="_blank">Bio-Inspired Artificial Intelligence</a></li>
                     </ul>
                 </section>
-                <section class="split-section">
+                <section class="split-section flex-shrink">
                     <iframe
                         width="100%"
                         height="100%"
@@ -32,13 +36,13 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
-                </section>  
-                <section class="msplitiddle-section">
-                    <img class="custom-image" src="/img/ntnu_front.jpg" alt="HomeBox"/>
-                </section> 
+                </section>
             </div>
             <div class="container">    
-                <section class="split-section">
+                <section class="split-section flex-shrink">
+                    <img class="img-cover" src="/img/lulea.jpg" alt="HomeBox"/>
+                </section>  
+                <section class="split-section flex-grow">
                     <h3><a href="https://www.ltu.se/" target="_blank">Sweden : Luleå University of Technology</a></h3>
                     <p>I would like to follow the following courses : </p>
                     <ul>
@@ -47,12 +51,26 @@
                         <li><a href="https://www.ltu.se/en/education/syllabuses/course-syllabus?id=D7070E" target="_blank">Foundations of Private Key Cryptography</a></li>
                     </ul>
                 </section>
-                <section class="split-section">
-                    <img class="custom-image" src="/img/lulea_logo.jpg" alt="HomeBox"/>
+                <section class="split-section flex-shrink">
+                    <img class="img-cover" src="/img/lulea_logo.jpg" alt="HomeBox"/>
                 </section> 
-                <section class="split-section">
-                    <img class="custom-image" src="/img/lulea.jpg" alt="HomeBox"/>
+            </div>
+            <div class="container">    
+                <section class="split-section flex-shrink">
+                    <img class="img-cover" src="/img/UPM2.jpg" alt="HomeBox" href="https://www.poli.usp.br/comunicados-internos/poli-realiza-apresentacoes-da-universidad-politecnica-de-madrid-07-e-08-de-julho/"/>
                 </section>  
+                <section class="split-section flex-grow">
+                    <h3><a href="https://www.upm.es/" target="_blank">Spain : Polytechnic University of Madrid</a></h3>
+                    <p>I would like to follow the following courses : </p>
+                    <ul>
+                        <li><a href="https://telecocampussur.etsist.upm.es/master-universitario-internet-of-things-eng/" target="_blank">Service Architectures and Security for IoT</a></li>
+                        <li><a href="https://telecocampussur.etsist.upm.es/master-universitario-internet-of-things-eng/" target="_blank">Embedded Systems and IoT Devices</a></li>
+                        <li><a href="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master" target="_blank">Biomedical Engineering</a></li>
+                    </ul>
+                </section>
+                <section class="split-section flex-shrink">
+                    <img class="img-cover" src="/img/UPM.jpg" alt="HomeBox" href ="https://www.linkedin.com/school/universidad-politecnica-de-madrid/"/>
+                </section> 
             </div>
         </div>
 
