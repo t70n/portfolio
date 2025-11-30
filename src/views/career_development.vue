@@ -4,10 +4,23 @@
         <h1 class="padded1">Career Development</h1>
 
         <div>
+            <h2 class="padded2">Video introduction</h2>
             <video class="custom-video" controls muted style="width: 50%; height: auto;">
                 <source src="/vid/pitch.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+        </div>
+
+        <div>
+            <h2 class="padded2">Professional plans</h2>
+            <div class="padded2">
+                <iframe src="pdf/cam_poster_module1.pdf" style="width:100%; height:700px; border:0; box-shadow:none;" title="Poster Module 1" aria-label="Poster Module 1" loading="lazy">
+                    This browser does not support PDF display. <a href="pdf/cam_poster_module1.pdf" target="_blank" rel="noopener noreferrer">Open / Download the PDF</a>
+                </iframe>
+            </div>
+            <div class="button-section">
+                <button type="button" @click="openBibliography">Bibliography of articles related to my professional plans</button>
+            </div>
         </div>
 
         <div>
@@ -76,8 +89,15 @@
 </template>
 
 <script>
+import { openPdf } from '@/utils/openPdf';
+
 export default {
-    name: 'CareerDevelopment'
+    name: 'CareerDevelopment',
+    methods: {
+        openBibliography() {
+            openPdf('cam_bibliography_module1.pdf');
+        }
+    }
 };
 </script>
  
